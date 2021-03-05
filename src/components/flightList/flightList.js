@@ -3,13 +3,14 @@ import axios from 'axios';
 
 import './flightList.css';
 
-import IndigoLogo from './assets/indigo.jpg';
-import AirAsiaLogo from './assets/airasialogo.png';
+import IndigoLogo from '../../assets/indigo.jpg';
+import AirAsiaLogo from '../../assets/airasialogo.png';
 
 const FlightList = () => {
     const [flights, setFlights] = useState([]);
 
     useEffect(() => {
+        // This useEffect will work on componentDidMount
         axios.get('http://localhost:7010/flights/list')
             .then(res => {
                 const { data } = res;

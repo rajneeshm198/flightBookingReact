@@ -1,6 +1,6 @@
-import Header from './header.js';
-import Footer from './footer.js';
-import Dashboard from './dashboard.js';
+import Header from './components/header/header.js';
+import Footer from './components/footer/footer.js';
+import Dashboard from './components/dashboard/dashboard.js';
 
 import './App.css';
 

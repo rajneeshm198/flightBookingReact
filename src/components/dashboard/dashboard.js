@@ -1,5 +1,5 @@
 import React from 'react';
-import FlightList from './flightList.js';
+import FlightList from '../flightList/flightList.js';
 
 import './dashboard.css';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 
-import FligtLogo from './assets/flight-book-logo.png';
+import FligtLogo from '../../assets/flight-book-logo.png';
 
 const Header = () => {
     return (
